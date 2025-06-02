@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #001f3f, #1a2a6c);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(1, 1, 122, 0.9);
+    padding: 15px 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-name {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #ffcc00;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    color: #ffcc00;
+}
+
+.sale-container {
+    background: linear-gradient(135deg, rgba(217, 30, 24, 0.9), rgba(180, 20, 15, 0.9));
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    width: 85%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.sale-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount {
+    font-size: 2em;
+    color: #ffff66;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.details {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.shop-now {
+    display: inline-block;
+    padding: 18px 35px;
+    background-color: #ffff66;
+    color: #1a2a6c;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 500px;
+    padding: 25px;
+    margin: 0 20px 20px 20px;
+}
+
+.feature {
+    background-color: rgba(217, 30, 24, 0.9);
+    max-width: 480px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
